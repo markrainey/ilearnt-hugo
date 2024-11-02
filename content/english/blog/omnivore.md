@@ -22,6 +22,8 @@ The Chrome browser extension is easy to setup and use - one click and it is save
 
 Thoroughly recommend it.
 
+**Update 1st November 2024**: It was too good to last. They are closing it down in 2 weeks and I will be looking for an alternative. Oh well!
+
 __Links__
 
 [Omnivore](omnivore.app)
