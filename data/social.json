@@ -1,6 +1,11 @@
 {
   "main": [
     {
+      "name": "rss",
+      "icon": "fa-solid fa-rss",
+      "link": "/feed.xml"
+    },
+    {
       "name": "twitter",
       "icon": "fab fa-twitter",
       "link": "https://x.com/markarainey"

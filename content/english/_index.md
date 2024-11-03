@@ -11,7 +11,7 @@ banner:
   image: "/images/banner.png"
   button:
     enable: true
-    label: "My writing"
+    label: "Learnings ..."
     link: "/blog/"
 
 ---
