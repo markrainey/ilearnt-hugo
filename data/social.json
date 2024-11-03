@@ -3,7 +3,7 @@
     {
       "name": "rss",
       "icon": "fa-solid fa-rss",
-      "link": "/feed.xml"
+      "link": "/rss.xml"
     },
     {
       "name": "twitter",

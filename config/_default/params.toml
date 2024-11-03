@@ -39,7 +39,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [navigation_button]
 enable = false
 label = "RSS"
-link = "/feed.xml"
+link = "/rss.xml"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search

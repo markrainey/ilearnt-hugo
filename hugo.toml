@@ -130,7 +130,7 @@ notAlternative = true
 
 [outputFormats.RSS]
 mediatype = "application/rss"
-baseName = "feed"
+baseName = "rss"
 
 
 ############################# Plugins ##############################
