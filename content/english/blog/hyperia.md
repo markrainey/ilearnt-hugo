@@ -22,7 +22,7 @@ It describes how they developed and modelled it on computers and introduced a sp
 
 It's not convinced me to try the ride however the journey from design to delivery is well worth a read.
 
-__Links___
+__Links__
 
 [The rollercoaster king](https://www.theguardian.com/travel/2024/oct/24/rollercoaster-designer-john-burton-thorpe-park-hyperia)
 
