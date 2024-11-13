@@ -1,5 +1,5 @@
 ---
-title: "What Is A Photo?"
+title: "What is a photo?"
 meta_title: ""
 description: Does the camera never lie?
 date: 2024-09-27T12:00:00
