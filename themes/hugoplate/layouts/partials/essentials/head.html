@@ -15,14 +15,14 @@
 <!-- manifest -->
 {{ partialCached "manifest" . }}
 
-
 <!-- site verifications -->
 {{ partialCached "site-verifications.html" . }}
 
+<!-- Had to manually add the twitter image -->
+<meta name="twitter:image" content="https://ilearnt.com/images/logo_hu6165399888570659769.png" />
 
 <!-- opengraph and twitter card -->
 {{ partial "basic-seo.html" . }}
-
 
 <!-- custom script -->
 {{ partialCached "custom-script.html" . }}
