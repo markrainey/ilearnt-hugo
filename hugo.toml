@@ -48,10 +48,6 @@ target = "assets"
 source = "hugo_stats.json"
 target = "assets/watching/hugo_stats.json"
 
-[[module.mounts]]
-excludeFiles = 'english/blog/Templates/*'
-source = 'content'
-target = 'content'
 
 ############################# Build ##############################
 [build]
