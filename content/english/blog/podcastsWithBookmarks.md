@@ -3,7 +3,7 @@ title: "Podcasts with bookmarks"
 meta_title: ""
 date: 2023-04-27T12:00:00
 author: "Mark Rainey"
-categories: ["podcast  "]
+categories: ["podcast"]
 tags: []
 draft: false
 ---
