@@ -7,11 +7,11 @@ banner:
     \
     Regularly I will be chatting to someone and I'll suddenly remember something I came across that might be relevant or useful to them - and then you get the classic thought process of \"I read that somewhere, now where was it, I remember it was just after another article and it had an image of a tiger at the top\" etc. \
     \
-    This is my attempt to capture those nuggets in one place to make them easier to find as well as any additional thoughts or useful things I come across. Maybe, if I am lucky, you will might enjoy or learn something from them as well.
+    Always be curious!
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Learnings ..."
+    label: "Are you curious?"
     link: "/blog/"
 
 ---
