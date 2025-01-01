@@ -17,7 +17,7 @@ In a recent [article](https://deepmind.google/discover/blog/gencast-predicts-wea
 
 They trained their model on weather data up to 2018 and then compared its forecast for 2019 with the actual weather data. They found it was more accurate than the supercomputer predictions 97.2 percent of the time and it produced the results much quicker. 
 
-> It takes a single Google Cloud TPU v5 just 8 minutes to produce one 15-day forecast in GenCast’s ensemble, and every forecast in the ensemble can be generated simultaneously, in parallel. Traditional physics-based ensemble forecasts such as those produced by ENS, at 0.2° or 0.1° resolution, take hours on a supercomputer with tens of thousands of processors.
+> It takes a single Google Cloud TPU v5 just 8 minutes to produce one 15-day forecast in GenC  ast’s ensemble, and every forecast in the ensemble can be generated simultaneously, in parallel. Traditional physics-based ensemble forecasts such as those produced by ENS, at 0.2° or 0.1° resolution, take hours on a supercomputer with tens of thousands of processors.
  
 It has also had good results predicting extreme events such as cyclones.
 
