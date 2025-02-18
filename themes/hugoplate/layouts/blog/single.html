@@ -74,13 +74,16 @@
           {{ end }}
         </article>
       </div>
-
+		
       <!-- Related posts -->
       {{ $related := (where site.RegularPages "Section" "in" site.Params.mainSections) | intersect (where site.RegularPages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) }}
       {{ $related = $related | shuffle | first 3 }}
       {{ with $related }}
-        <div class="section pb-0">
-          <h2 class="h3 mb-12">{{ T "related_posts" }}</h2>
+	  
+	  <div class="row justify-center">		  
+        <div class="section pb-0 related lg:col-10">		  
+		<hr class="related-divider" />			
+          <h2 class="h3 mb-12 related">{{ T "related_posts" }}</h2>
           <div class="row">
             {{ range . }}
               <div class="lg:col-4 md:col-6 mb-14">
@@ -89,6 +92,7 @@
             {{ end }}
           </div>
         </div>
+		</div>
       {{ end }}
     </div>
   </section>
