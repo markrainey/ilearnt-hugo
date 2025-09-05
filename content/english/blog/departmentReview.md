@@ -12,6 +12,7 @@ draft: false
 
 Just before I recently went on holiday our CEO set me some "homework".
 
+### Key questions
 In my role as CTO, he asked me to think about the following questions:
 
 - What would the company look like if we started again?
@@ -21,6 +22,7 @@ In my role as CTO, he asked me to think about the following questions:
 - What would be the next steps?
 - Is there anyone we need to let go or change their role?
 
+### The approach
 I made some notes beforehand and then mostly forgot about work. Occasionally something would come to mind and I would make a note of it and then go back to enjoying my holiday.
 
 When I got back I started to collate my thoughts. It started as a bunch of one line reminders and slowly started to form into something more concrete. 
@@ -34,6 +36,8 @@ I spent two weeks, in between meetings and other commitments, working through th
 Once I was happy with the document of thoughts, after a bunch of reworking, the next step was to produce a slide deck to present to the rest of the management team. This was relatively quick to produce but the challenge has been to keep this at the right level to be able to explain things and the decisions made without getting too "techie".
 
 This will be presented to them next week.
+
+### A template
 
 In case, it is useful to someone else these are the areas I covered and reviewed in my document - obviously the actual content is commercially sensitive so I can't share that.
 
