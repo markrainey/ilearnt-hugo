@@ -2,7 +2,7 @@
 title: "Missing information"
 meta_title: ""
 description: "Sometimes missing information creates unneeded work"
-date: "2025-01-02T06:52:00"
+date: "2026-01-02T06:52:00"
 categories:
   - Life
 author: Mark Rainey
