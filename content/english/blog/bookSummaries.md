@@ -1,28 +1,28 @@
 ---
-title: "Even more book summaries"
+title: "Generating book summaries"
 meta_title: ""
-date: 2019-06-08T12:00:00
-author: "Mark Rainey"
-categories: ["life"]
+description: "Using Gemini to create book summaries"
+date: "2026-01-05T07:59:00"
+categories:
+  - AI
+author: Mark Rainey
 tags: []
 draft: false
 ---
-I read a lot of books - a bit less at the moment as I commute less - but still probably more than most people. However there are so many books I would like to read I can't read them all. I still prefer to read the full book but sometimes book summaries are useful - either to get the key concepts or as a reminder of what I have previously read.
+Wouldn't it be nice to pull out the key ideas and action points from a book you have just read or are considering purchasing? Maybe get a reminder of the story line of a fiction book you read years ago?
 
-I have a subscription to [Scribd](https://www.scribd.com/) which has started providing book summaries. It also comes with a free subscription to [Blinkist](https://www.blinkist.com/). 
+I have shelves of books and hundreds of Kindle books. I can barely remember any of the story lines or key points from any of them.
 
-However there are also some free sites where people have summarised books. 
+If I am reading a non-fiction book I make lots of Kindle highlights or may make notes of the odd idea on a index card I use as a bookmark. Yes, I can read them later but it is difficult to build a coherent view of the main points of the book.
 
-I have been reading the summaries by [Derek Sivers](https://sivers.org/book) for years. As well as providing a summary he also gives the books a score - I don't always agree with them but they provide a good initial guide. I also like you can sort them by "newest" so you can see what has been added since your last visit.
+I have been playing around with generating AI book summaries for the books I have read. 
 
-I recently came across [The Rabbit Hole](http://blas.com/). This has a huge number of summaries for a single person. Each summary is organised into an overall summary, key takeaways and a "What I got out of it section".
+I am currently using this prompt:
 
-__External Links__
+> Repeatedly ask the user for an ISBN or a book title with author.   
+>   
+> For each response, if it is a non-fiction book then generate a book summary including takeaway action points or if it is a fiction book then generate a summary of the story line.   
+>   
+> Ask the user again for the next book details.
 
-[Scribd](https://www.scribd.com/)
-
-[Blinkist](https://www.blinkist.com/)
-
-[Derek Sivers](https://sivers.org/book)
-
-[The Rabbit Hole](http://blas.com/)
+I am slowly building up a set of summaries of all the main books on my shelf in the study. I have also used it to build a view on whether I should purchase a specific book.
