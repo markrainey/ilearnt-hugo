@@ -61,7 +61,7 @@ The following are my disorganised notes from the call:
 
 - **Your network is your currency**. The value of your contacts is often underestimated.
 
-- **Three founders can create conflict as two can gang up** - ideally have more than one founder and an odd number. 
+- **Three founders can create conflict as two can gang up** - ideally have more than one founder and an even number. 
 
 - **The dynamic between founders is important** - who would you value in 5 years when a strategic question comes up?
 
