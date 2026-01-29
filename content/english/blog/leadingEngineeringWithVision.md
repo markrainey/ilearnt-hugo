@@ -10,7 +10,7 @@ tags: []
 draft: false
 ---
 
-I recently joined another call through CTO Craft about leading engineering with a vision. The previous one is [here](/blog/ctoToFounder/).
+I recently joined another call through CTO Craft about leading engineering with a vision. The previous one is [here](/blog/ctotofounder/).
 
 The call was hosted by [Andy Skipper](https://www.linkedin.com/in/andyskipper/) and the panel was [Meri Williams](https://www.linkedin.com/in/meriwilliams/) (CTO Pleo), [Rob Zuber](https://www.linkedin.com/in/robzuber/) (CTO CircleCI), [Jossie Haines](https://www.linkedin.com/in/jossiemann/) (CTO and Engineering Leadership Coach).
 
