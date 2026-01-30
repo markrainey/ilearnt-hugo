@@ -74,6 +74,30 @@
           {{ end }}
         </article>
       </div>
+	  
+      <div class="row justify-center">		  
+        <div class="section pb-0 related lg:col-10">		  
+          <div class="row border-t border-border py-8 dark:border-darkmode-border">
+              <div class="lg:col-6 md:col-6">
+                {{ with .NextInSection }}
+                  <span class="text-sm text-light dark:text-darkmode-light">NEXT POST</span>
+                  <a href="{{ .RelPermalink }}" class="mt-2 block hover:text-primary transition-colors">
+                    <i class="fa-solid fa-arrow-left mr-2"></i>{{ .Title }}
+                  </a>
+                {{ end }}					
+              </div>
+			  <div class="lg:col-6 md:col-6 text-right">
+			    {{ with .PrevInSection }}
+			      <span class="text-sm text-light dark:text-darkmode-light">PREVIOUS POST</span>
+			      <a href="{{ .RelPermalink }}" class="mt-2 block hover:text-primary transition-colors">
+			        {{ .Title }}<i class="fa-solid fa-arrow-right ml-2"></i>
+			      </a>
+			    {{ end }}
+              </div>
+            
+          </div>
+        </div>
+      </div>
 		
       <!-- Related posts -->
       {{ $related := (where site.RegularPages "Section" "in" site.Params.mainSections) | intersect (where site.RegularPages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) }}
@@ -92,7 +116,7 @@
             {{ end }}
           </div>
         </div>
-		</div>
+      </div>
       {{ end }}
     </div>
   </section>
