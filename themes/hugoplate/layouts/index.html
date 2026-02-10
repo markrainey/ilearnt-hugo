@@ -1,14 +1,14 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
-    <section class="section pt-14">
+    <section class="section pt-14 pb-8">
       <div class="container">
         <div class="row justify-center">
           <div class="lg:col-7 md:col-9 mb-8 text-center">
             <h1 class="mb-4 text-h3 lg:text-h1">
               {{ .title | markdownify }}
             </h1>
-            <p class="mb-8">
+            <p class="mb-0">
               {{ .content | markdownify }}
             </p>
             {{ with .button }}
@@ -28,6 +28,53 @@
           <div class="col-12">
             {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="section pt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-4">
+            <h2 class="h2">Recent Posts</h2>
+          </div>
+          
+          {{ range first 5 site.RegularPages }}
+          
+          <div class="col-12 my-5">
+            <article class="card border-0 shadow-sm mx-auto bg-gray-100 dark:bg-zinc-800 rounded-lg" style="max-width: 850px;">
+              <div class="card-body p-6">
+                
+                <div class="row mb-3">
+                  <div class="col text-start">
+                    <h4 class="h5 mb-0">
+                      <a href="{{ .Permalink }}" class="text-dark dark:text-white font-weight-bold">{{ .Title }}</a>
+                    </h4>
+                  </div>
+                  <div class="col-auto text-end">
+                    <span class="text-muted dark:text-darkmode-light small">{{ .PublishDate.Format "Jan 02, 2006" }}</span>
+                  </div>
+                </div>
+                
+                <div class="row mb-4">
+                  <div class="col-12 text-start">
+                    <p class="mb-0 text-muted dark:text-darkmode-light">
+                      {{ .Summary | truncate 200 }}
+                    </p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <a href="{{ .Permalink }}" class="btn btn-primary px-5 py-2">Read Post</a>
+                  </div>
+                </div>
+                
+              </div>
+            </article>
+          </div>
+
+        {{ end }}
+          
         </div>
       </div>
     </section>

@@ -8,10 +8,6 @@ banner:
     Regularly I will be chatting to someone and I'll suddenly remember something I came across that might be relevant or useful to them - and then you get the classic thought process of \"I read that somewhere, now where was it, I remember it was just after another article and it had an image of a tiger at the top\" etc. \
     \
     Always be curious!
-  image: "/images/banner.png"
-  button:
-    enable: true
-    label: "Are you curious?"
-    link: "/blog/"
-
+  image: "/images/logo.png"
+  
 ---
