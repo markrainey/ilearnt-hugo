@@ -1,41 +1,33 @@
-<div class="bg-body dark:bg-darkmode-body">
-  {{ $image:= .Params.image }}
-  {{ if $image }}
-    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded") }}
-  {{ end }}
-  <h5 class="mb-3">
-    <a href="{{ .RelPermalink }}">
-      {{ .Title }}
+<div class="col-12 mb-2 position-relative"> <article class="card border-0 shadow-sm mx-auto bg-gray-100 dark:bg-zinc-800 hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-xl transition-all duration-300" 
+           style="max-width: 850px; position: relative; overflow: hidden; display: block;">
+    
+    <a href="{{ .Permalink }}" 
+       class="d-block"
+       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 5; text-indent: -9999px;">
+       Read {{ .Title }}
     </a>
-  </h5>
-  {{ $categories:= .Params.categories }}
-  {{ if $categories }}
-    <ul class="mb-4">
-      <li class="mr-4 inline-block metadata">        
-        {{ time.Format ":date_long" .PublishDate }}
-      </li>
-      <!-- <li class="mr-4 inline-block">
-        <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
-          <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
-        </a>
-      </li> -->
-      <!-- <li class="mr-4 inline-block">
-        <i class="fa-regular fa-folder mr-1"></i>
-        {{ range $i,$p:= $categories }}
-          <a
-            href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
-            class="ms-1"
-            >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
-              {{ "," }}
-            {{ end }}
-          </a>
-        {{ end }}
-      </li> -->
-    </ul>
-  {{ end }}
-  <p class="mb-6">{{ .Summary }}</p>
-  <br>
-  <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
-    {{ T "read_more" }}
-  </a>
+
+    <div class="card-body p-4 md:px-5">
+      <div class="row mb-2" style="position: relative; z-index: 1;">
+        <div class="col text-start">
+          <h4 class="h5 mb-0 text-dark dark:text-zinc-100 font-weight-bold">
+            {{ .Title }}
+          </h4>
+        </div>
+        <div class="col-auto text-end">
+          <span class="text-muted dark:text-zinc-400 small metadata">
+            {{ .PublishDate.Format "Jan 02, 2006" }}
+          </span>
+        </div>
+      </div>
+      
+      <div class="row" style="position: relative; z-index: 1;">
+        <div class="col-12 text-start">
+          <p class="mb-0 text-muted dark:text-zinc-300">
+            {{ .Summary | truncate 200 }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
 </div>
