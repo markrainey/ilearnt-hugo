@@ -8,7 +8,7 @@
         {{/* categories */}}
         {{ if eq .Permalink (`categories/` | absLangURL) }}
           {{ range site.Taxonomies.categories.ByCount }}
-            <li class="m-3 inline-block">
+            <li class="m-3 inline-block categories">
               <a
                 href="{{ .Page.Permalink }}"
                 class="bg-theme-light text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark block rounded px-4 py-2 text-xl">

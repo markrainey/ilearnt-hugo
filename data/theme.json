@@ -17,9 +17,9 @@
     "darkmode": {
       "theme_color": {
         "primary": "#fff",
-        "body": "#1c1c1c",
-        "border": "#3E3E3E",
-        "theme_light": "#222222",
+        "body": "#1a1e26",
+        "border": "#334155",
+        "theme_light": "#1e293b",
         "theme_dark": ""
       },
       "text_color": {
@@ -31,13 +31,13 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Open Sans:wght@400;600",
+      "primary": "Charter:wght@400;600",
       "primary_type": "sans-serif",
       "secondary": "Source Sans Pro:wght@500;600",
       "secondary_type": "sans-serif"
     },
     "font_size": {
-      "base": "15",
+      "base": "18",
       "scale": "1.2"
     }
   }
