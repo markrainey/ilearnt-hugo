@@ -6,4 +6,4 @@ image: "/images/avatar.png"
 draft: false
 ---
 
-By day I am the CTO of a software company. By evening, and weekends, I am the dad of two kids; well they are now mostly grown up.
+By day I am a contract software developer (ex CTO). By evening, and weekends, I am the dad of a university student and a soon to be university student.
