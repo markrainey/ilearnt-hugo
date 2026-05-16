@@ -18,8 +18,9 @@
 <!-- site verifications -->
 {{ partialCached "site-verifications.html" . }}
 
-<!-- Had to manually add the twitter image -->
-<meta name="twitter:image" content="https://ilearnt.com/images/banner_hu2911007596053054537.png" />
+<!-- twitter image -->
+{{ $logo := resources.Get "images/logo.png" }}
+{{ with $logo }}<meta name="twitter:image" content="{{ (absURL .RelPermalink) }}" />{{ end }}
 
 <!-- opengraph and twitter card -->
 {{ partial "basic-seo.html" . }}
