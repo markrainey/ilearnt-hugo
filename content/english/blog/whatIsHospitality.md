@@ -2,7 +2,7 @@
 title: "What is hospitality?"
 meta_title: ""
 description: "How do you define hospitality?"
-date: 2026-05-16T07:14:00
+date: 2026-05-18T07:14:00
 categories:
   - Life
   - Work
